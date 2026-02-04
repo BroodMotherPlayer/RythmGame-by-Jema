@@ -1,9 +1,9 @@
 //import Phaser, { Input, Physics, Scene } from "phaser";
-import background from './sprites/background.jpg';
-import hitZone from './sprites/hitZone.png';
-import hitZoneShadow from './sprites/note.png';
-import note from './sprites/note.png';
-import Audio from "./audio/background_track.mp3";
+// import background from './sprites/background.jpg';
+// import hitZone from './sprites/hitZone.png';
+// import hitZoneShadow from './sprites/note.png';
+// import note from './sprites/note.png';
+// import Audio from "./audio/background_track.mp3";
 
 
 
