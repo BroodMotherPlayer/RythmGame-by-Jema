@@ -151,6 +151,14 @@ class GameOver extends Phaser.Scene
         stroke: '#eff319', 
         strokeThickness: 10 
     }).setOrigin(0.5);
+
+    let startBtn = this.add.text(1100, 50, 'Main Menu', { fontSize: '30px', fill: '#fff',stroke: '#000000' ,strokeThickness: 3 })
+      .setOrigin(0.5)
+      .setInteractive({ useHandCursor: true });
+
+    startBtn.on('pointerdown', () => {
+      this.scene.start('MainMenu');
+    });
   }
   }
 
