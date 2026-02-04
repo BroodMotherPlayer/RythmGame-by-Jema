@@ -87,7 +87,7 @@ class GamePlay extends Phaser.Scene {
         this.note.y = -50;
         this.noteSpeed = Phaser.Math.Between(5, 10);
       } else {
-        // this.miss++;
+        this.miss++;
         this.comboCount = 0;
         this.scoreText.visible = false;
         this.noteSpeed = Phaser.Math.Between(5, 10);
@@ -100,7 +100,7 @@ class GamePlay extends Phaser.Scene {
       if (this.note.y > 600) {
         this.note.y = -50;
         this.comboCount = 0;
-        // this.miss++;
+        this.miss++;
         this.scoreText.visible = false;
       }
     }
