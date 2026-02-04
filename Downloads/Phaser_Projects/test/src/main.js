@@ -12,7 +12,7 @@ class MainMenu extends Phaser.Scene {
     super('MainMenu');
   }
   preload() {
-    this.load.image('background', './sprites/background.jpg');
+    this.load.image('background', '/sprites/background.jpg');
   }
   create() {
     const {width,height}= this.scale
@@ -37,11 +37,11 @@ class GamePlay extends Phaser.Scene {
     super('GamePlay');
   }
   preload() {
-    this.load.image('background', './sprites/background.jpg');
-    this.load.image('hitZone', './sprites/hitZone.png');
-    this.load.image('hitZoneShadow', './sprites/note.png');
-    this.load.image('note', './sprites/note.png');
-    this.load.audio('bgm',"./audio/background_track.mp3")
+    this.load.image('background', '/sprites/background.jpg');
+    this.load.image('hitZone', '/sprites/hitZone.png');
+    this.load.image('hitZoneShadow', '/sprites/note.png');
+    this.load.image('note', '/sprites/note.png');
+    this.load.audio('bgm',"/audio/background_track.mp3")
 
   }
   create() {
