@@ -1,0 +1,19 @@
+{
+    "name": "test",
+    "version": "1.0.0",
+    "description": "",
+    "license": "ISC",
+    "author": "",
+    "type": "commonjs",
+    "main": "index.js",
+    "scripts": {
+        "start": "parcel src/index.html",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "audio": "^1.2.0",
+        "parcel-bundler": "^1.12.5",
+        "phaser": "^3.90.0",
+        "sprites": "^0.2.3"
+    }
+}
