@@ -1,4 +1,4 @@
-import Phaser, { Input, Physics, Scene } from "phaser";
+//import Phaser, { Input, Physics, Scene } from "phaser";
 import background from './sprites/background.jpg';
 import hitZone from './sprites/hitZone.png';
 import hitZoneShadow from './sprites/note.png';
