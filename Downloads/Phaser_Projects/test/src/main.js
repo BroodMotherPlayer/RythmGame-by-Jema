@@ -54,7 +54,7 @@ class GamePlay extends Phaser.Scene {
 
 
     this.music.on('complete', () => {
-    this.scene.start("GameOver", { combo: this.comboCount });
+    this.scene.start("GameOver", { combo :this.highscore });
   });
 
     this.miss = 0;
